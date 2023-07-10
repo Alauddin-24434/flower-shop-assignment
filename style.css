@@ -6,7 +6,7 @@
 
 }
 
-/* share css  file , same to same */
+/* share css  file , same to same css file start hare*/
 .same-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -15,6 +15,24 @@
     line-height: 30px;
 }
 
+.same-title {
+    margin-bottom: 24px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* share css  file , same to same css file end hare */
 
 /* header section start hare */
 header {
@@ -96,16 +114,7 @@ header {
 
 }
 
-.feature-title {
-    margin-bottom: 24px;
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
+
 
 .tree-img {
     display: flex;
@@ -205,4 +214,43 @@ header {
     line-height: 35px;
     margin-top: 24px;
 }
+
 /* extra section end hare */
+
+/* hot dil section start hare */
+
+.hot-dil-section {
+    width: 100%;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+}
+
+.hot-dil-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 150px;
+
+}
+
+#dil-description {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-bottom: 32px;
+}
+
+.dil-colom-one {
+    margin-top: 230px;
+}
+
+.dil-colom-two {
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    padding: 100px 0px;
+}
+
