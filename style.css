@@ -25,6 +25,7 @@
     font-weight: 800;
     line-height: normal;
 }
+
 .btn {
     color: #FFF;
     font-size: 20px;
@@ -254,3 +255,27 @@ header {
     padding: 100px 0px;
 }
 
+/* instagram section start hare */
+.instagram-section {
+    width: 1440px;
+    height: 320px;
+    margin: auto;
+    text-align: center;
+    margin-top: 128px;
+    margin-bottom: 24px;
+}
+
+.instagram-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    gap: 24px;
+
+}
+
+.instagram-box {
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+/* instagram section end hare */
