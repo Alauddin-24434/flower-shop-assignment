@@ -91,8 +91,8 @@ header {
 .Featured-container {
     text-align: center;
     margin-top: 178px;
-    
-    
+
+
 
 }
 
@@ -168,3 +168,41 @@ header {
 }
 
 /* featured section end  hare */
+
+/* extra section start hare */
+.extra-section {
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin: auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    text-align: center;
+    margin-top: 128px;
+
+
+
+}
+
+.extra-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 80px;
+
+
+
+}
+
+.extra-description {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 24px;
+}
+/* extra section end hare */
