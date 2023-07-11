@@ -1,10 +1,11 @@
-* {
+/* universal class selector start hare */
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato';
-
 }
+/* universal class selector end hare */
 
 /* share css  file , same to same css file start hare*/
 .same-description {
@@ -47,16 +48,11 @@ header {
     align-items: center;
     margin: 0px 240px;
     gap: 30px;
-
-
 }
 
 .header-colom-one {
     width: 708px;
     margin-top: 50px;
-
-
-
 }
 
 .header-title {
@@ -73,14 +69,11 @@ header {
     margin-bottom: 32px;
 }
 
-
-
 .header-colom-two {
     width: 635px;
     height: 800px;
     margin-top: 50px;
     border-radius: 1px solid red;
-
 }
 
 .primary-bg {
@@ -92,7 +85,6 @@ header {
     border-radius: 8px;
     background: #E55473;
     border: 0;
-
 }
 
 .header-description {
@@ -109,19 +101,12 @@ header {
 .Featured-container {
     text-align: center;
     margin-top: 178px;
-
-
-
 }
-
-
 
 .tree-img {
     display: flex;
     justify-content: center;
     gap: 24px;
-
-
 }
 
 .trees-container {
@@ -133,8 +118,6 @@ header {
     background: rgba(167, 33, 98, 0.15);
     width: 464px;
     height: 538px;
-
-
 }
 
 .background-two {
@@ -142,8 +125,6 @@ header {
     background: rgba(5, 151, 160, 0.15);
     width: 464px;
     height: 538px;
-
-
 }
 
 .background-three {
@@ -152,19 +133,15 @@ header {
     width: 464px;
     height: 538px;
 }
-
 .img-one {
     margin: 110px 70px 0px 70px;
 }
-
 .img-two {
     margin: 117px 47px 51px 47px;
 }
-
 .img-three {
     margin: 67px 75px 0px 75px;
 }
-
 .underline {
     color: #272727;
     text-align: center;
@@ -189,9 +166,6 @@ header {
     background: rgba(39, 39, 39, 0.05);
     text-align: center;
     margin-top: 128px;
-
-
-
 }
 
 .extra-container {
@@ -199,9 +173,6 @@ header {
     justify-content: center;
     gap: 100px;
     padding-top: 80px;
-
-
-
 }
 
 .extra-description {
@@ -232,7 +203,6 @@ header {
     justify-content: center;
     text-align: center;
     gap: 150px;
-
 }
 
 #dil-description {
@@ -273,8 +243,6 @@ span {
     justify-content: space-between;
     margin-top: 48px;
     gap: 24px;
-
-
 }
 
 .instagram-box {
@@ -295,7 +263,6 @@ span {
     text-align: center;
     text-align: center;
     padding: 130px;
-
 }
 
 .email {
@@ -308,16 +275,15 @@ span {
     padding-left: 22px;
     border: 0;
     margin-top: 48px;
-    
-
 }
 
 .btn-last {
-    height: 64px;
+    height:60px;
     color: #FFF;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+
 }
 
 .last-description {
@@ -334,12 +300,11 @@ footer {
     background: #111010;
     color: #FFF;
     text-align: center;
-
 }
 
 .footer-container {
     padding: 150px;
-
+   
 }
 
 .footer-title {
