@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Lato';
 }
 /* universal class selector end hare */
@@ -254,13 +253,17 @@ span {
 /* instagram section end hare */
 
 /* latest deals section start hare */
-.leatest-container {
-    margin: auto;
-    margin-top: 350px;
+.leatest-dil-section{
     background-image: url(assets/Rectangle\ 9.png);
     width: 1440px;
     height: 449px;
-    text-align: center;
+    background-position: center;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.leatest-container {
+    margin-top: 350px;
     text-align: center;
     padding: 130px;
 }
@@ -304,14 +307,12 @@ footer {
 
 .footer-container {
     padding: 150px;
-   
 }
 
 .footer-title {
     margin-bottom: 24px;
     font-size: 48px;
     font-weight: 800;
-    
 }
 
 #footer-description {
